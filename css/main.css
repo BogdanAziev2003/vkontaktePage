@@ -1,0 +1,224 @@
+:root{
+    --maxwidth: 1024px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: #EDEEF0;
+}
+
+header{
+    height: 48px;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.header__inner{
+    max-width: var(--maxwidth);
+    height: inherit;
+    display: flex;
+    margin: 0 auto;
+}
+
+.header__inner__boxes{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.first__box{
+    justify-content: space-evenly;
+    padding-right: 15px;
+}
+
+.input__container{
+    height: 32px;
+    width: 230px;
+    background-color: #EDEEF0;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.input__container > svg{
+    margin: 0px 7px 0 10px;
+}
+
+.input__container > input{
+    height: 32px;
+    border-radius: inherit;
+    background-color: #EDEEF0;
+    border: 0px;
+    outline: none;
+    width: 230px;
+}
+
+.second__box{
+    justify-content: end;
+}
+
+.to__eng{
+    width: 116px;
+    height: 48px;
+    font-size: 12.5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.to__eng:hover{
+    background-color: #EDEEF0;
+    cursor: pointer;
+
+}
+
+/* ------------------------------------------------------------------ */
+
+section{
+    margin-top: 100px;
+}
+
+.section__inner{
+    display: flex;
+    max-width: var(--maxwidth);
+    margin: 0 auto;
+}
+
+.section__inner__boxes{
+    height: 625px;
+}
+
+.images__box{
+    flex: 10;
+    justify-content: center;
+}
+
+.images__box__head{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px 0 5px 0;
+    text-align: center;
+}
+
+.sugges{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(69, 68, 68);
+}
+
+.images{
+    height: 400px;
+    width: inherit;
+    position: relative;
+    margin: 30px 0 10px 0;
+}
+
+.image{
+    position: absolute;
+}
+
+.first__image{
+    left: 130px;
+}
+
+.second__image{
+    left: 283px;
+}
+
+.downloads{
+    display: flex;
+    justify-content: center;
+}
+
+.downloads__inner{
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+}
+
+.download{
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 13px;
+    height: 30px;
+}
+
+.downloads > svg{
+    color: #346297;
+}
+
+.apple{
+    margin-left: 15px;
+}
+
+a{
+    outline: 0;
+    text-decoration: none;
+    font-size: 13px;
+    color: #346297;
+    margin-left: 7px;
+}
+.download:hover{
+    background-color: #e8eefc;
+    cursor: pointer;
+}
+
+.all__products__outer{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 140px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.all__products__outer > svg{
+    transform: translateY(2px);
+}
+.all__products__outer > svg :hover{
+    transform: translateX(5px);
+    transition: .5s;
+}
+
+.all__products{
+    color: #346297;
+    font-size: 13px;
+}
+
+.all__products:hover{
+    text-decoration: underline;
+}
+
+.enter__box{
+    flex: 7;
+    display: flex;
+    justify-content: end;
+
+}
+
+.enter{
+    width: 320px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    height: 383px;
+}
+
+.enter > svg {
+    margin-top: 30px;
+}
+
+.enter > p {
+    margin-top: 30px;
+}
